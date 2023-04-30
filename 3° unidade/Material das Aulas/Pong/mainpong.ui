@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainPong</class>
+ <widget class="QMainWindow" name="MainPong">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>243</width>
+    <height>241</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pong - Exemplo de threads em Qt</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="labelBola">
+    <property name="geometry">
+     <rect>
+      <x>43</x>
+      <y>0</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBarra">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>0</y>
+      <width>21</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSlider" name="sliderBarra">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>22</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-100</number>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+    <property name="singleStep">
+     <number>10</number>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>243</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPong">
+    <property name="title">
+     <string>Pong</string>
+    </property>
+    <addaction name="actionIniciar"/>
+    <addaction name="actionEncerrar"/>
+    <addaction name="separator"/>
+    <addaction name="actionSair"/>
+   </widget>
+   <addaction name="menuPong"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionIniciar">
+   <property name="text">
+    <string>Iniciar</string>
+   </property>
+  </action>
+  <action name="actionEncerrar">
+   <property name="text">
+    <string>Encerrar</string>
+   </property>
+  </action>
+  <action name="actionSair">
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

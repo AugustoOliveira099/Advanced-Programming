@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1593204939 source:c:\users\augusto\downloads\programação avançada\exercícios sobre classes\complex_v1\complex_v1\complex-main.cpp
+	<iostream>
+	"complex.h"
+
+1593009570 c:\users\augusto\downloads\programação avançada\exercícios sobre classes\complex_v1\complex_v1\complex.h
+	<iostream>
+
+1520437673 source:c:\users\augusto\downloads\programação avançada\exercícios sobre classes\complex_v1\complex_v1\complex.cpp
+	<iostream>
+	<cmath>
+	"complex.h"
+

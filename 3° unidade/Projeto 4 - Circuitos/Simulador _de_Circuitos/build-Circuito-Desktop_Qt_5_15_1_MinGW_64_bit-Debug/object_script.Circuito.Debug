@@ -1,0 +1,11 @@
+debug/bool3S.o
+debug/circuito.o
+debug/main.o
+debug/maincircuito.o
+debug/modifyporta.o
+debug/modifysaida.o
+debug/newcircuito.o
+debug/moc_maincircuito.o
+debug/moc_modifyporta.o
+debug/moc_modifysaida.o
+debug/moc_newcircuito.o

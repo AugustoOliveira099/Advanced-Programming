@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1602960694 source:c:\users\augusto\downloads\programação avançada\2° unidade\nova pasta\labirinto\labirinto_main.cpp
+	<iostream>
+	<cmath>
+	<chrono>
+	"labirinto.h"
+
+1603137046 c:\users\augusto\downloads\programação avançada\2° unidade\nova pasta\labirinto\labirinto.h
+	<vector>
+
+1603137234 source:c:\users\augusto\downloads\programação avançada\2° unidade\nova pasta\labirinto\labirinto.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cstdlib>
+	<string>
+	<time.h>
+	<cmath>
+	<list>
+	<algorithm>
+	"labirinto.h"
+

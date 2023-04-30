@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1602445066 source:c:\users\augusto\downloads\programação avançada\2° unidade\sudoku\sudoku.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<stack>
+	<queue>
+	<time.h>
+	"sudoku.h"
+
+1602361691 c:\users\augusto\downloads\programação avançada\2° unidade\sudoku\sudoku.h
+	<vector>
+	<cstdint>
+

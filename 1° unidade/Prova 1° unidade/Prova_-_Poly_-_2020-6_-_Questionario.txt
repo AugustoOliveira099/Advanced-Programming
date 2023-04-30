@@ -1,0 +1,29 @@
+﻿PROVA - PROGRAMAÇÃO AVANÇADA - 2020.6
+1ª UNIDADE
+
+
+Alun@: José Augusto Agripino de Oliveira
+
+
+A avaliação consiste de 12 (doze) questões, cujos enunciados encontram-se no arquivo com as questões da prova. Cada questão pode receber as seguintes notas:
+- 0.85pt se o resultado for matematicamente correto e exibido corretamente.
+- 0.60pt se o resultado for matematicamente correto mas a exibição não estiver otimizada.
+- 0.00pt se o resultado for matematicamente incorreto.
+Assinale a nota em função do resultado da execução do seu programa comparado com a resposta correta (o gabarito encontra-se no arquivo com as questões da prova).
+
+
+NOTA INICIAL TOTAL: 10.2 (Soma das notas das questões)
+
+
+Questão 01:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 02:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 03:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 04:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 05:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 06:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 07:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 08:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 09:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 10:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 11:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt
+Questão 12:  (x) 0.85pt   ( ) 0.60pt   ( ) 0.00pt

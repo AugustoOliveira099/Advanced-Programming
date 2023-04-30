@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1599151023 source:c:\users\augusto\downloads\programação_avançada\loja_polim\loja_polim-main.cpp
+	<iostream>
+	<limits>
+	<string>
+	"loja_polim.h"
+
+1599858357 c:\users\augusto\downloads\programação_avançada\loja_polim\loja_polim.h
+	<iostream>
+	<string>
+	<vector>
+
+1604959622 source:c:\users\augusto\downloads\programação_avançada\loja_polim\loja_polim.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cmath>
+	<limits>
+	"loja_polim.h"
+

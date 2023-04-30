@@ -1,0 +1,11 @@
+release/bool3S.o
+release/circuito.o
+release/main.o
+release/maincircuito.o
+release/modifyporta.o
+release/modifysaida.o
+release/newcircuito.o
+release/moc_maincircuito.o
+release/moc_modifyporta.o
+release/moc_modifysaida.o
+release/moc_newcircuito.o

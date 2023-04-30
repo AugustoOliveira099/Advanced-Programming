@@ -1,0 +1,12 @@
+O aplicativo a ser desenvolvido deve ler e tratar dados do arquivo fornecido.
+
+O arquivo é uma listagem obtida do SIGAA com os alunos do curso de Engenharia de Computação atualizada em 17/06/20. Esse arquivo está em formato CSV, compatível com vários aplicativos de planilhas e manipulação de dados, como o Excel. Arquivos CSV são em formato texto e podem ser abertos em qualquer editor (bloco de notas, etc.)
+
+No arquivo, cada linha contém um aluno, no formato:
+   Matrícula;Nome;Curso;Status;
+
+O programa deve:
+1) Ler todos os alunos do arquivo e armazenar em uma estrutura de dados apropriada (um array dinâmico), com cada elemento do array contendo todos os dados de um aluno em uma struct;
+2) Imprimir em tela apenas os alunos com status FORMANDO;
+3) Salvar no arquivo "trancados.csv" apenas os alunos com status TRANCADO, obedecendo ao formato dos arquivos CSV; e
+4) Testar se voce consegue abrir o arquivo "trancados.csv" no Excel ou em outro aplicativo que leia arquivos nesse formato.

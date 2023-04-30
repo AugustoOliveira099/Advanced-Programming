@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainLoja</class>
+ <widget class="QMainWindow" name="MainLoja">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainLoja</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tabelaLivro">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>320</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="tabKeyNavigation">
+     <bool>false</bool>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <property name="columnCount">
+     <number>3</number>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QTableWidget" name="tabelaCD">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>20</y>
+      <width>320</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="tabKeyNavigation">
+     <bool>false</bool>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <property name="columnCount">
+     <number>3</number>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QTableWidget" name="tabelaDVD">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>20</y>
+      <width>320</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="tabKeyNavigation">
+     <bool>false</bool>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <property name="columnCount">
+     <number>3</number>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QLabel" name="QlabelLivro">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="text">
+     <string>LIVROS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="QlabelCD">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>0</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="text">
+     <string>CDs</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="QlabelDVD">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>0</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="text">
+     <string>DVDs</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <addaction name="actionLer"/>
+    <addaction name="actionSalvar"/>
+    <addaction name="separator"/>
+    <addaction name="actionSair"/>
+   </widget>
+   <widget class="QMenu" name="menuItem">
+    <property name="title">
+     <string>Item</string>
+    </property>
+    <addaction name="actionIncluir_Livro"/>
+    <addaction name="actionIncluir_CD"/>
+    <addaction name="actionIncluir_DVD"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuItem"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLer">
+   <property name="text">
+    <string>Ler...</string>
+   </property>
+  </action>
+  <action name="actionSalvar">
+   <property name="text">
+    <string>Salvar...</string>
+   </property>
+  </action>
+  <action name="actionSair">
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+  <action name="actionIncluir_Livro">
+   <property name="text">
+    <string>Incluir Livro...</string>
+   </property>
+  </action>
+  <action name="actionIncluir_CD">
+   <property name="text">
+    <string>Incluir CD...</string>
+   </property>
+  </action>
+  <action name="actionIncluir_DVD">
+   <property name="text">
+    <string>Incluir DVD...</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

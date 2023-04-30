@@ -1,0 +1,94 @@
+PROVA - PROGRAMAÇÃO AVANÇADA - 2020.6
+Projeto Labirinto
+
+
+Alun@: José Augusto Agripino de Oliveira
+Nota inicial: 10,0pt
+
+ERROS:
+- Você reordenou o container Aberto inteiro a cada iteração, utilizando sort. Bastaria procurar o local adequado e inserir na posição correta, sem necessidade de ordenar tudo. Isso foi o responsável pelo fato do seu algoritmo ser em torno de 10 vezes mais demorado do que o esperado.
+
+Nota final: 7,0
+
+
+A avaliação consiste de 10 (dez) labirintos cujos mapas encontram-se no arquivo com as questões da prova. Para cada questão devem ser informados os seguintes resultados:
+
+== DADOS A SEREM SEMPRE INFORMADOS:
+(informe -1 apenas se seu programa travou na execução)
+* Tempo de execução (em milissegundos)
+* Número de nós em aberto (número inteiro)
+* Número de nós em fechado (número inteiro)
+== DADOS CUJO VALOR É -1 SE NÃO FOR ENCONTRADO CAMINHO
+(informe -1 também se seu programa travou na execução)
+* Comprimento do caminho (número real)
+* Profundidade do caminho (número inteiro)
+
+QUESTÃO 01 - 1pt
+Tempo: 1.018
+Nós Aberto: 34
+Nós Fechado: 10
+Comprimento: 12.7279
+Profundidade: 9
+
+QUESTÃO 02 - 1pt
+Tempo: 1.999
+Nós Aberto: 0
+Nós Fechado: 6
+Comprimento: -1
+Profundidade: -1
+
+QUESTÃO 03 - 1pt
+Tempo: 7.015ms
+Nós Aberto: 0
+Nós Fechado: 90
+Comprimento: -1
+Profundidade: -1
+
+QUESTÃO 04 - 1pt
+Tempo: 8.999
+Nós Aberto: 42
+Nós Fechado: 103
+Comprimento: 32.5563
+Profundidade: 28
+
+QUESTÃO 05 - 1pt
+Tempo: 18.995
+Nós Aberto: 102
+Nós Fechado: 129
+Comprimento: 56.8701
+Profundidade: 49
+
+QUESTÃO 06 - 1pt
+Tempo: 3.998
+Nós Aberto: 15
+Nós Fechado: 74
+Comprimento: 31.8995
+Profundidade: 29
+
+QUESTÃO 07 - 1pt
+Tempo: 3.994
+Nós Aberto: 6
+Nós Fechado: 39
+Comprimento: 17.6569
+Profundidade: 16
+
+QUESTÃO 08 - 1pt
+Tempo: 0.996
+Nós Aberto: 5
+Nós Fechado: 31
+Comprimento: 16.2426
+Profundidade: 15
+
+QUESTÃO 09 - 1pt
+Tempo: =1.999
+Nós Aberto: 20
+Nós Fechado: 43
+Comprimento: 20.0711
+Profundidade: 18
+
+QUESTÃO 10 - 1pt
+Tempo: 3.991
+Nós Aberto: 0
+Nós Fechado: 78
+Comprimento: 18
+Profundidade: 18

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1595163741 source:c:\users\augusto\downloads\programação_avançada\comunicador\halfduplex_cliente.cpp
+	<iostream>
+	<string.h>
+	"mysocket.h"
+
+1595108102 c:\users\augusto\downloads\programação_avançada\comunicador\mysocket.h
+	<iostream>
+	<string>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/socket.h>
+
+1595107704 source:c:\users\augusto\downloads\programação_avançada\comunicador\mysocket.cpp
+	<iostream>
+	<string.h>
+	"mysocket.h"
+	<sys/types.h>
+	<netdb.h>
+	<unistd.h>
+

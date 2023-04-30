@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1601733210 source:c:\users\augusto\downloads\programação avançada\projeto\poly.cpp
+	<iostream>
+	<cmath>
+	"Poly.h"
+
+1601762101 c:\users\augusto\downloads\programação avançada\projeto\poly.h
+	<iostream>
+
+1601758590 source:c:\users\augusto\downloads\programação avançada\projeto\poly-main.cpp
+	<iostream>
+	<cstring>
+	"Poly.h"
+
+1601858202 source:c:\users\augusto\downloads\programação_avançada\1° unidade\prova 1° unidade\projeto\poly-main.cpp
+	<iostream>
+	<cstring>
+	"Poly.h"
+
+1601762101 c:\users\augusto\downloads\programação_avançada\1° unidade\prova 1° unidade\projeto\poly.h
+	<iostream>
+
+1601763621 source:c:\users\augusto\downloads\programação_avançada\1° unidade\prova 1° unidade\projeto\poly.cpp
+	<iostream>
+	<cmath>
+	"Poly.h"
+

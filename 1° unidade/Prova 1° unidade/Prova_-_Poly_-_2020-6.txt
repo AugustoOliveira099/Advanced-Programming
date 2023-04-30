@@ -1,0 +1,101 @@
+Projeto Poly - Prova 2020.6
+
+A avaliação consiste das 12 (doze) questões abaixo. Cada questão é uma operação que deve ser executada pela calculadora de polinômios, usando sua classe Poly. Para cada uma das questões abaixo, é mostrado o resultado esperado (correto) e o valor a ser exibido para os polinômios P1 e P2 após a execução da operação.
+
+Cada questão pode receber as seguintes notas:
+- 0.85 se o resultado for matematicamente correto e exibido corretamente.
+- 0.60 se o resultado for matematicamente correto mas a exibição não estiver otimizada.
+- 0.00 se o resultado for matematicamente incorreto.
+
+A nota inicial na avaliação será a soma das notas em todas as 12 questões. No caso de nota máxima (0.85) em todas as questões, o somatório dá ligeiramente acima de 10.0 (10.2) e será considerado como sendo 10.0.
+
+Caso uma questão gere resultado incorreto, a nota da questão é 0 (zero). Nesse caso, para impedir que o resultado errado em uma questão contamine os resultados das questões seguintes, é permitido que você entre os valores dos dois polinômios (P1 e P2) com seus valores corretos antes de efetuar a questão seguinte. ATENÇÃO: a redigitação dos polinômios só é permitida após uma questão completamente errada.
+
+===================
+QUESTÕES
+===================
+
+01) Entre um novo polinônimo (grau 2):
+3x2 - 5x
+
+Resultado: 3*x^2-5*x
+P1: 0
+P2: 3*x^2-5*x
+
+02) Entre um novo polinômio (grau 3):
+x3 + 1
+
+Resultado: x^3+1
+P1: 3*x^2-5*x
+P2: x^3+1
+
+03) Multiplique os dois polinômios:
+
+Resultado: 3*x^5-5*x^4+3*x^2-5*x
+P1: x^3+1
+P2: 3*x^5-5*x^4+3*x^2-5*x
+
+04) Entre um novo polinômio (grau 5):
+3x5 + 4x2
+
+Resultado: 3*x^5+4*x^2
+P1: 3*x^5-5*x^4+3*x^2-5*x
+P2: 3*x^5+4*x^2
+
+05) Subtraia os dois polinômios:
+
+Resultado: -5*x^4-x^2-5*x
+
+P1: 3*x^5+4*x^2
+P2: -5*x^4-x^2-5*x
+
+06) Inverta o sinal do último polinômio:
+
+P1: 3*x^5+4*x^2
+P2: 5*x^4+x^2+5*x
+
+07) Calcule o valor do último polinômio (P2) para x=1.1:
+
+Valor de x: 1.1
+P2(x) = 14.0305
+
+P1: 3*x^5+4*x^2
+P2: 5*x^4+x^2+5*x
+
+08) Troque os polinômios:
+
+P1: 5*x^4+x^2+5*x
+P2: 3*x^5+4*x^2
+
+09) Entre um novo polinômio (grau 0):
+-5
+
+Resultado: -5
+
+P1: 3*x^5+4*x^2
+P2: -5
+
+10) Some os dois polinômios:
+
+Resultado: 3*x^5+4*x^2-5
+
+P1: -5
+P2: 3*x^5+4*x^2-5
+
+11) Calcule o valor do último polinômio (P2) para x=0.8993
+P2(x) = -0.000446382
+
+P1: -5
+P2: 3*x^5+4*x^2-5
+
+12) Tente entrar com um novo polinômio inválido (grau 1):
+0x + 2
+
+Possibilidade 1 (correta):
+O programa não permite a digitação do coeficiente nulo
+
+Possibilidade 2 (correta):
+Resultado: 2
+
+P1: 3*x^5+4*x^2-5
+P2: 2

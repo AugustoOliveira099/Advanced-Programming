@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1605648415 source:c:\users\augusto\downloads\programação_avançada\simulador _de_circuitos\simulador\circuito.cpp
+	<iostream>
+	<fstream>
+	<limits>
+	<cmath>
+	"circuito.h"
+	"bool3S.h"
+
+1605364088 source:c:\users\augusto\downloads\programação_avançada\simulador _de_circuitos\simulador\bool3s.cpp
+	<iostream>
+	"bool3S.h"
+
+1605207541 c:\users\augusto\downloads\programação_avançada\simulador _de_circuitos\simulador\bool3s.h
+	<iostream>
+
+1605560243 source:c:\users\augusto\downloads\programação_avançada\simulador _de_circuitos\simulador\circuito-main.cpp
+	<iostream>
+	<string>
+	"circuito.h"
+
+1605552117 c:\users\augusto\downloads\programação_avançada\simulador _de_circuitos\simulador\circuito.h
+	<iostream>
+	<string>
+	<vector>
+	"bool3S.h"
+

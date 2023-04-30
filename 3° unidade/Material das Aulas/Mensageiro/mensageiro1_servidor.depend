@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1595107704 source:c:\users\augusto\downloads\programação_avançada\3° unidade\mensageiro\mysocket.cpp
+	<iostream>
+	<string.h>
+	"mysocket.h"
+	<sys/types.h>
+	<netdb.h>
+	<unistd.h>
+
+1595108102 c:\users\augusto\downloads\programação_avançada\3° unidade\mensageiro\mysocket.h
+	<iostream>
+	<string>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/socket.h>
+
